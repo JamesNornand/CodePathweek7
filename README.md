@@ -13,48 +13,41 @@ Time spent: **10** hours spent in total
     - Tested in version: 3.1.1
     - Fixed in version: 4.5.2
   - [ ] GIF Walkthrough: 
-	![]https://github.com/JamesNornand/CodePathweek7/blob/master/exploit1/exploit1.gif
+	![](https://github.com/JamesNornand/CodePathweek7/blob/master/exploit1/exploit1.gif)
   - [ ] Steps to recreate: 
 	- Create a new post.
 	- Leave new Javascript code comment below the post, which will create a button. 
   - [ ] Affected source code:
     - [Link 1](https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e)
-1. (Required) Vulnerability Name or ID
+
+2. CVE-2015-3440
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
+    - Tested in version: 3.1.1
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+	![](https://github.com/JamesNornand/CodePathweek7/blob/master/exploit2/exploit2.gif)
   - [ ] Steps to recreate: 
+	- Create a new post.
+	- Log out.
+	- Leave a new script comment with the data size exceed 64kb below the post.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    - [Link 1](https://klikki.fi/adv/wordpress2.html)
+
+3. CVE-2015-5623
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+    - Tested in version:3.1.1
+    - Fixed in version: 4.2.3
   - [ X] GIF Walkthrough: 
+	![](https://github.com/JamesNornand/CodePathweek7/blob/master/exploit3/exploit3.gif)
   - [ ] Steps to recreate: 
+	- Create a new post.
+	- Keep login.
+	- Leave a script comment.
+
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 1](https://klikki.fi/adv/wordpress3.html)
 
 ## Assets
 
