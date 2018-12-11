@@ -13,7 +13,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 3.1.1
     - Fixed in version: 4.5.2
   - [ ] GIF Walkthrough: 
-	![]https://github.com/JamesNornand/CodePathweek7/blob/master/exploit1.gif
+	![]https://github.com/JamesNornand/CodePathweek7/blob/master/exploit1/exploit1.gif
   - [ ] Steps to recreate: 
 	- Create a new post.
 	- Leave new Javascript code comment below the post, which will create a button. 
